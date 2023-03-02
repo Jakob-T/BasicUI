@@ -1,0 +1,504 @@
+﻿<Window x:Class="BasicUI.ZaposleniciWin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BasicUI"
+        mc:Ignorable="d"
+        Title="Zaposlenici" Height="450" Width="800" WindowStartupLocation="CenterScreen" Background="AntiqueWhite">
+    <Grid>
+        <Grid>
+            <ScrollViewer>
+                <Border BorderBrush="Black">
+                    <StackPanel>
+                        <Border BorderBrush="Black" BorderThickness="2">
+                            <Grid Height="Auto">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="0.65*"></ColumnDefinition>
+                                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+
+                                <Image Source=".\Images\lik1.jpg" Grid.Column="0" Height="165" Margin="10,10,10,10"></Image>
+
+                                <StackPanel Grid.Column="1">
+
+                                    <TextBlock x:Name="Osoba1_Ime"  
+                                   FontSize="30"
+                                   TextAlignment="Center"
+                                   FontWeight="DemiBold"
+                                   >Jakob Trelec</TextBlock>
+
+                                    <TextBlock x:Name="Osoba1_ID" Canvas.Left="-10" TextAlignment="Center"
+                                    Text="Id:1" 
+                                    FontSize="25"
+                                    FontWeight="DemiBold"                                   
+                                    ></TextBlock>
+
+                                    <TextBlock x:Name="Osoba1_Odjel" 
+                                   FontSize="25"
+                                   TextAlignment="Center"
+                                   FontWeight="Light"
+                                   >Odjel</TextBlock>
+
+                                    <TextBlock x:Name="Osoba1_Zanimanje" 
+                                   FontSize="25"
+                                   TextAlignment="Center"
+                                   FontWeight="Light"
+                                   >Zanimanje</TextBlock>
+
+                                    <TextBlock x:Name="Osoba1_Kontakt" Canvas.Left="200" TextAlignment="Center"
+                                    Text="Kontakt:123456789" 
+                                    FontSize="25"
+                                    FontWeight="Light"                                   
+                                    ></TextBlock>
+                                </StackPanel>
+                            </Grid>
+                        </Border>
+
+                        <Border BorderBrush="Black" BorderThickness="2">
+                            <Grid Height="Auto" >
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="0.65*"></ColumnDefinition>
+                                <ColumnDefinition Width="1*"></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+
+                                <Image Source=".\Images\lik2.jpg" Grid.Column="0" Height="165" Margin="10,10,10,10"></Image>
+
+                            <StackPanel Grid.Column="1">
+
+                                <TextBlock x:Name="Osoba2_Ime"  
+                                   FontSize="30"
+                                   TextAlignment="Center"
+                                   FontWeight="DemiBold"
+                                   >Jakob Trelec</TextBlock>
+
+                                <TextBlock x:Name="Osoba2_ID" Canvas.Left="-10" TextAlignment="Center"
+                                    Text="Id:1" 
+                                    FontSize="25"
+                                    FontWeight="DemiBold"                                   
+                                    ></TextBlock>
+
+                                <TextBlock x:Name="Osoba2_Odjel" 
+                                   FontSize="25"
+                                   TextAlignment="Center"
+                                   FontWeight="Light"
+                                   >Odjel</TextBlock>
+
+                                <TextBlock x:Name="Osoba2_Zanimanje" 
+                                   FontSize="25"
+                                   TextAlignment="Center"
+                                   FontWeight="Light"
+                                   >Zanimanje</TextBlock>
+
+                                <TextBlock x:Name="Osoba2_Kontakt" Canvas.Left="200" TextAlignment="Center"
+                                    Text="Kontakt:123456789" 
+                                    FontSize="25"
+                                    FontWeight="Light"                                   
+                                    ></TextBlock>
+                            </StackPanel>
+                        </Grid>
+                        </Border>
+
+                        <Border BorderBrush="Black" BorderThickness="2">
+                            <Grid Height="Auto" >
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="0.65*"></ColumnDefinition>
+                                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+
+                                <Image Source=".\Images\lik3.jpg" Grid.Column="0" Height="165" Margin="10,10,10,10"></Image>
+
+                                <StackPanel Grid.Column="1">
+
+                                    <TextBlock x:Name="Osoba3_Ime"  
+                                   FontSize="30"
+                                   TextAlignment="Center"
+                                   FontWeight="DemiBold"
+                                   >Jakob Trelec</TextBlock>
+
+                                    <TextBlock x:Name="Osoba3_ID" Canvas.Left="-10" TextAlignment="Center"
+                                    Text="Id:1" 
+                                    FontSize="25"
+                                    FontWeight="DemiBold"                                   
+                                    ></TextBlock>
+
+                                    <TextBlock x:Name="Osoba3_Odjel" 
+                                   FontSize="25"
+                                   TextAlignment="Center"
+                                   FontWeight="Light"
+                                   >Odjel</TextBlock>
+
+                                    <TextBlock x:Name="Osoba3_Zanimanje" 
+                                   FontSize="25"
+                                   TextAlignment="Center"
+                                   FontWeight="Light"
+                                   >Zanimanje</TextBlock>
+
+                                    <TextBlock x:Name="Osoba3_Kontakt" Canvas.Left="200" TextAlignment="Center"
+                                    Text="Kontakt:123456789" 
+                                    FontSize="25"
+                                    FontWeight="Light"                                   
+                                    ></TextBlock>
+                                </StackPanel>
+                            </Grid>
+                        </Border>
+
+                        <Border BorderBrush="Black" BorderThickness="2">
+                            <Grid Height="Auto" >
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="0.65*"></ColumnDefinition>
+                                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+
+                                <Image Source=".\Images\lik4.jpg" Grid.Column="0" Height="165" Margin="10,10,10,10"></Image>
+
+                                <StackPanel Grid.Column="1">
+
+                                    <TextBlock x:Name="Osoba4_Ime"  
+                                   FontSize="30"
+                                   TextAlignment="Center"
+                                   FontWeight="DemiBold"
+                                   >Jakob Trelec</TextBlock>
+
+                                    <TextBlock x:Name="Osoba4_ID" Canvas.Left="-10" TextAlignment="Center"
+                                    Text="Id:1" 
+                                    FontSize="25"
+                                    FontWeight="DemiBold"                                   
+                                    ></TextBlock>
+
+                                    <TextBlock x:Name="Osoba4_Odjel" 
+                                   FontSize="25"
+                                   TextAlignment="Center"
+                                   FontWeight="Light"
+                                   >Odjel</TextBlock>
+
+                                    <TextBlock x:Name="Osoba4_Zanimanje" 
+                                   FontSize="25"
+                                   TextAlignment="Center"
+                                   FontWeight="Light"
+                                   >Zanimanje</TextBlock>
+
+                                    <TextBlock x:Name="Osoba4_Kontakt" Canvas.Left="200" TextAlignment="Center"
+                                    Text="Kontakt:123456789" 
+                                    FontSize="25"
+                                    FontWeight="Light"                                   
+                                    ></TextBlock>
+                                </StackPanel>
+                            </Grid>
+                        </Border>
+
+                        <Border BorderBrush="Black" BorderThickness="2">
+                            <Grid Height="Auto" >
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="0.65*"></ColumnDefinition>
+                                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+
+                                <Image Source=".\Images\lik5.jpg" Grid.Column="0" Height="165" Margin="10,10,10,10"></Image>
+
+                                <StackPanel Grid.Column="1">
+
+                                    <TextBlock x:Name="Osoba5_Ime"  
+                                   FontSize="30"
+                                   TextAlignment="Center"
+                                   FontWeight="DemiBold"
+                                   >Jakob Trelec</TextBlock>
+
+                                    <TextBlock x:Name="Osoba5_ID" Canvas.Left="-10" TextAlignment="Center"
+                                    Text="Id:1" 
+                                    FontSize="25"
+                                    FontWeight="DemiBold"                                   
+                                    ></TextBlock>
+
+                                    <TextBlock x:Name="Osoba5_Odjel" 
+                                   FontSize="25"
+                                   TextAlignment="Center"
+                                   FontWeight="Light"
+                                   >Odjel</TextBlock>
+
+                                    <TextBlock x:Name="Osoba5_Zanimanje" 
+                                   FontSize="25"
+                                   TextAlignment="Center"
+                                   FontWeight="Light"
+                                   >Zanimanje</TextBlock>
+
+                                    <TextBlock x:Name="Osoba5_Kontakt" Canvas.Left="200" TextAlignment="Center"
+                                    Text="Kontakt:123456789" 
+                                    FontSize="25"
+                                    FontWeight="Light"                                   
+                                    ></TextBlock>
+                                </StackPanel>
+                            </Grid>
+                        </Border>
+
+                        <Border BorderBrush="Black" BorderThickness="2">
+                            <Grid Height="Auto" >
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="0.65*"></ColumnDefinition>
+                                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+
+                                <Image Source=".\Images\lik6.jpg" Grid.Column="0" Height="165" Margin="10,10,10,10"></Image>
+
+                                <StackPanel Grid.Column="1">
+
+                                    <TextBlock x:Name="Osoba6_Ime"  
+                                   FontSize="30"
+                                   TextAlignment="Center"
+                                   FontWeight="DemiBold"
+                                   >Jakob Trelec</TextBlock>
+
+                                    <TextBlock x:Name="Osoba6_ID" Canvas.Left="-10" TextAlignment="Center"
+                                    Text="Id:1" 
+                                    FontSize="25"
+                                    FontWeight="DemiBold"                                   
+                                    ></TextBlock>
+
+                                    <TextBlock x:Name="Osoba6_Odjel" 
+                                   FontSize="25"
+                                   TextAlignment="Center"
+                                   FontWeight="Light"
+                                   >Odjel</TextBlock>
+
+                                    <TextBlock x:Name="Osoba6_Zanimanje" 
+                                   FontSize="25"
+                                   TextAlignment="Center"
+                                   FontWeight="Light"
+                                   >Zanimanje</TextBlock>
+
+                                    <TextBlock x:Name="Osoba6_Kontakt" Canvas.Left="200" TextAlignment="Center"
+                                    Text="Kontakt:123456789" 
+                                    FontSize="25"
+                                    FontWeight="Light"                                   
+                                    ></TextBlock>
+                                </StackPanel>
+                            </Grid>
+                        </Border>
+
+                        <Border BorderBrush="Black" BorderThickness="2">
+                            <Grid Height="Auto" >
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="0.65*"></ColumnDefinition>
+                                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+
+                                <Image Source=".\Images\lik7.jpg" Grid.Column="0" Height="165" Margin="10,10,10,10"></Image>
+
+                                <StackPanel Grid.Column="1">
+
+                                    <TextBlock x:Name="Osoba7_Ime"  
+                                   FontSize="30"
+                                   TextAlignment="Center"
+                                   FontWeight="DemiBold"
+                                   >Jakob Trelec</TextBlock>
+
+                                    <TextBlock x:Name="Osoba7_ID" Canvas.Left="-10" TextAlignment="Center"
+                                    Text="Id:1" 
+                                    FontSize="25"
+                                    FontWeight="DemiBold"                                   
+                                    ></TextBlock>
+
+                                    <TextBlock x:Name="Osoba7_Odjel" 
+                                   FontSize="25"
+                                   TextAlignment="Center"
+                                   FontWeight="Light"
+                                   >Odjel</TextBlock>
+
+                                    <TextBlock x:Name="Osoba7_Zanimanje" 
+                                   FontSize="25"
+                                   TextAlignment="Center"
+                                   FontWeight="Light"
+                                   >Zanimanje</TextBlock>
+
+                                    <TextBlock x:Name="Osoba7_Kontakt" Canvas.Left="200" TextAlignment="Center"
+                                    Text="Kontakt:123456789" 
+                                    FontSize="25"
+                                    FontWeight="Light"                                   
+                                    ></TextBlock>
+                                </StackPanel>
+                            </Grid>
+                        </Border>
+
+                        <Border BorderBrush="Black" BorderThickness="2">
+                            <Grid Height="Auto" >
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="0.65*"></ColumnDefinition>
+                                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+
+                                <Image Source=".\Images\zena1.jpg" Grid.Column="0" Height="165" Margin="10,10,10,10"></Image>
+
+                                <StackPanel Grid.Column="1">
+
+                                    <TextBlock x:Name="Osoba8_Ime"  
+                                   FontSize="30"
+                                   TextAlignment="Center"
+                                   FontWeight="DemiBold"
+                                   >Jakob Trelec</TextBlock>
+
+                                    <TextBlock x:Name="Osoba8_ID" Canvas.Left="-10" TextAlignment="Center"
+                                    Text="Id:1" 
+                                    FontSize="25"
+                                    FontWeight="DemiBold"                                   
+                                    ></TextBlock>
+
+                                    <TextBlock x:Name="Osoba8_Odjel" 
+                                   FontSize="25"
+                                   TextAlignment="Center"
+                                   FontWeight="Light"
+                                   >Odjel</TextBlock>
+
+                                    <TextBlock x:Name="Osoba8_Zanimanje" 
+                                   FontSize="25"
+                                   TextAlignment="Center"
+                                   FontWeight="Light"
+                                   >Zanimanje</TextBlock>
+
+                                    <TextBlock x:Name="Osoba8_Kontakt" Canvas.Left="200" TextAlignment="Center"
+                                    Text="Kontakt:123456789" 
+                                    FontSize="25"
+                                    FontWeight="Light"                                   
+                                    ></TextBlock>
+                                </StackPanel>
+                            </Grid>
+                        </Border>
+
+                        <Border BorderBrush="Black" BorderThickness="2">
+                            <Grid Height="Auto" >
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="0.65*"></ColumnDefinition>
+                                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+
+                                <Image Source=".\Images\lik8.jpg" Grid.Column="0" Height="165" Margin="10,10,10,10"></Image>
+
+                                <StackPanel Grid.Column="1">
+
+                                    <TextBlock x:Name="Osoba9_Ime"  
+                                   FontSize="30"
+                                   TextAlignment="Center"
+                                   FontWeight="DemiBold"
+                                   >Jakob Trelec</TextBlock>
+
+                                    <TextBlock x:Name="Osoba9_ID" Canvas.Left="-10" TextAlignment="Center"
+                                    Text="Id:1" 
+                                    FontSize="25"
+                                    FontWeight="DemiBold"                                   
+                                    ></TextBlock>
+
+                                    <TextBlock x:Name="Osoba9_Odjel" 
+                                   FontSize="25"
+                                   TextAlignment="Center"
+                                   FontWeight="Light"
+                                   >Odjel</TextBlock>
+
+                                    <TextBlock x:Name="Osoba9_Zanimanje" 
+                                   FontSize="25"
+                                   TextAlignment="Center"
+                                   FontWeight="Light"
+                                   >Zanimanje</TextBlock>
+
+                                    <TextBlock x:Name="Osoba9_Kontakt" Canvas.Left="200" TextAlignment="Center"
+                                    Text="Kontakt:123456789" 
+                                    FontSize="25"
+                                    FontWeight="Light"                                   
+                                    ></TextBlock>
+                                </StackPanel>
+                            </Grid>
+                        </Border>
+
+
+                        <Border BorderBrush="Black" BorderThickness="2">
+                            <Grid Height="Auto" >
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="0.65*"></ColumnDefinition>
+                                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+
+                                <Image Source=".\Images\lik9.jpg" Grid.Column="0" Height="165" Margin="10,10,10,10"></Image>
+
+                                <StackPanel Grid.Column="1">
+
+                                    <TextBlock x:Name="Osoba10_Ime"  
+                                   FontSize="30"
+                                   TextAlignment="Center"
+                                   FontWeight="DemiBold"
+                                   >Jakob Trelec</TextBlock>
+
+                                    <TextBlock x:Name="Osoba10_ID" Canvas.Left="-10" TextAlignment="Center"
+                                    Text="Id:1" 
+                                    FontSize="25"
+                                    FontWeight="DemiBold"                                   
+                                    ></TextBlock>
+
+                                    <TextBlock x:Name="Osoba10_Odjel" 
+                                   FontSize="25"
+                                   TextAlignment="Center"
+                                   FontWeight="Light"
+                                   >Odjel</TextBlock>
+
+                                    <TextBlock x:Name="Osoba10_Zanimanje" 
+                                   FontSize="25"
+                                   TextAlignment="Center"
+                                   FontWeight="Light"
+                                   >Zanimanje</TextBlock>
+
+                                    <TextBlock x:Name="Osoba10_Kontakt" Canvas.Left="200" TextAlignment="Center"
+                                    Text="Kontakt:123456789" 
+                                    FontSize="25"
+                                    FontWeight="Light"                                   
+                                    ></TextBlock>
+                                </StackPanel>
+                            </Grid>
+                        </Border>
+
+                        <Border BorderBrush="Black" BorderThickness="2">
+                            <Grid Height="Auto" >
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="0.65*"></ColumnDefinition>
+                                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+
+                                <Image Source=".\Images\lik10.jpg" Grid.Column="0" Height="165" Margin="10,10,10,10"></Image>
+
+                                <StackPanel Grid.Column="1">
+
+                                    <TextBlock x:Name="Osoba11_Ime"  
+                                   FontSize="30"
+                                   TextAlignment="Center"
+                                   FontWeight="DemiBold"
+                                   >Jakob Trelec</TextBlock>
+
+                                    <TextBlock x:Name="Osoba11_ID" Canvas.Left="-10" TextAlignment="Center"
+                                    Text="Id:1" 
+                                    FontSize="25"
+                                    FontWeight="DemiBold"                                   
+                                    ></TextBlock>
+
+                                    <TextBlock x:Name="Osoba11_Odjel" 
+                                   FontSize="25"
+                                   TextAlignment="Center"
+                                   FontWeight="Light"
+                                   >Odjel</TextBlock>
+
+                                    <TextBlock x:Name="Osoba11_Zanimanje" 
+                                   FontSize="25"
+                                   TextAlignment="Center"
+                                   FontWeight="Light"
+                                   >Zanimanje</TextBlock>
+
+                                    <TextBlock x:Name="Osoba11_Kontakt" Canvas.Left="200" TextAlignment="Center"
+                                    Text="Kontakt:123456789" 
+                                    FontSize="25"
+                                    FontWeight="Light"                                   
+                                    ></TextBlock>
+                                </StackPanel>
+                            </Grid>
+                        </Border>
+                    </StackPanel>
+                </Border>
+            </ScrollViewer>
+            
+        </Grid>
+    </Grid>
+</Window>

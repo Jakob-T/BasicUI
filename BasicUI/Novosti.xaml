@@ -1,0 +1,188 @@
+﻿<Window x:Class="BasicUI.Novosti"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BasicUI"
+        mc:Ignorable="d"
+        Title="Novosti" Height="450" Width="400" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <ScrollViewer>
+            <StackPanel>
+                <Expander Header="28.11.2020" FontSize="25" >
+                    <StackPanel>
+                        <TextBlock
+                            Text="- Zavrsavanje projekta"
+                            ></TextBlock>
+                    </StackPanel>
+                </Expander>
+                <Expander Header="27.11.2020" FontSize="25" >
+                    <StackPanel>
+                        <TextBlock
+                            Text="- Dodavanje zadnjih detalja"
+                            ></TextBlock>
+                    </StackPanel>
+                </Expander>
+                <Expander Header="26.11.2020" FontSize="25" >
+                    <StackPanel>
+                        <TextBlock
+                            Text="- Uredivanje UI-a"
+                            ></TextBlock>
+                        <TextBlock
+                            Text="- Dodavanje zadnjih detalja"
+                            ></TextBlock>
+                    </StackPanel>
+                </Expander>
+                <Expander Header="25.11.2020" FontSize="25" >
+                    <StackPanel>
+                        <TextBlock
+                            Text="- Uredivanje UI-a"
+                            ></TextBlock>
+                        <TextBlock
+                            Text="- Dohvacanje podataka iz baze"
+                            ></TextBlock>
+                    </StackPanel>
+                </Expander>
+                <Expander Header="24.11.2020" FontSize="25" >
+                    <StackPanel>
+                        <TextBlock
+                            Text="- Uredivanje UI-a"
+                            ></TextBlock>
+                    </StackPanel>
+                </Expander>
+                <Expander Header="23.11.2020" FontSize="25" >
+                    <StackPanel>
+                        <TextBlock
+                            Text="- Uredivanje UI-a"
+                            ></TextBlock>
+                    </StackPanel>
+                </Expander>
+                <Expander Header="22.11.2020" FontSize="25" >
+                    <StackPanel>
+                        <TextBlock
+                            Text="- Uredivanje UI-a"
+                            ></TextBlock>
+                        <TextBlock
+                            Text="- Spajanje projekta s bazom"
+                            ></TextBlock>
+                    </StackPanel>
+                </Expander>
+                <Expander Header="21.11.2020" FontSize="25" >
+                    <StackPanel>
+                        <TextBlock
+                            Text="- Citanje dokumentacije"
+                            ></TextBlock>
+                        <TextBlock
+                            Text="- Uredivanej UI-a"
+                            ></TextBlock>
+                        <TextBlock
+                            Text="- Spajanje baze s projektom"
+                            ></TextBlock>
+                    </StackPanel>
+                </Expander>
+                <Expander Header="20.11.2020" FontSize="25" >
+                    <StackPanel>
+                        <TextBlock
+                            Text="- Pravljenje baze podataka"
+                            ></TextBlock>
+                        <TextBlock
+                            Text="- Uredivanje UI-a"
+                            ></TextBlock>
+                    </StackPanel>
+                </Expander>
+                <Expander Header="19.11.2020" FontSize="25" >
+                    <StackPanel>
+                        <TextBlock
+                            Text="- Pravljenje baze podataka"
+                            ></TextBlock>
+                        <TextBlock
+                            Text="- Uredivanje UI-a"
+                            ></TextBlock>
+                    </StackPanel>
+                </Expander>
+                <Expander Header="18.11.2020" FontSize="25" >
+                    <StackPanel>
+                        <TextBlock
+                            Text="- Uredivanje UI-a"
+                            ></TextBlock>
+                    </StackPanel>
+                </Expander>
+                <Expander Header="17.11.2020" FontSize="25" >
+                    <StackPanel>
+                        <TextBlock
+                            Text="- Uredivanje UI-a"
+                            ></TextBlock>
+                    </StackPanel>
+                </Expander>
+                <Expander Header="16.11.2020" FontSize="25" >
+                    <StackPanel>
+                        <TextBlock
+                            Text="- Uredivanje UI-a"
+                            ></TextBlock>
+                    </StackPanel>
+                </Expander>
+                <Expander Header="15.11.2020" FontSize="25" >
+                    <StackPanel>
+                        <TextBlock
+                            Text="- Pravljenje projekta, planiranje"
+                            ></TextBlock>
+                    </StackPanel>
+                </Expander>
+                <Expander Header="14.11.2020" FontSize="25" >
+                    <StackPanel>
+                        <TextBlock
+                            Text="- Testiranje i isprobavanje itema"
+                            ></TextBlock>
+                    </StackPanel>
+
+                </Expander>
+                <Expander Header="13.11.2020" FontSize="25" >
+                    <StackPanel>
+                        <TextBlock
+                            Text="- Testiranje i isprobavanje itema"
+                            ></TextBlock>
+                    </StackPanel>
+                </Expander>
+
+
+                <Expander Header="12.11.2020" FontSize="25" >
+                    <StackPanel>
+                        <TextBlock
+                            Text="- Testiranje i isprobavanje itema"
+                            ></TextBlock>
+                    </StackPanel>
+                </Expander>
+                <Expander Header="11.11.2020" FontSize="25" >
+                    <StackPanel>
+                        <TextBlock
+                            Text="- Testiranje i isprobavanje itema"
+                            ></TextBlock>
+                    </StackPanel>
+
+                </Expander>
+                <Expander Header="10.11.2020" FontSize="25" >
+                    <StackPanel>
+                        <TextBlock
+                            Text="- Testiranje i isprobavanje itema"
+                            ></TextBlock>
+                    </StackPanel>
+                </Expander>
+                <Expander Header="9.11.2020" FontSize="25" >
+                    <StackPanel>
+                        <TextBlock
+                            Text="- Testiranje i isprobavanje itema"
+                            ></TextBlock>
+                    </StackPanel>
+                </Expander>
+                <Expander Header="8.11.2020" FontSize="25" >
+                    <StackPanel>
+                        <TextBlock
+                            Text="- Stvaranje Projekta, testiranje"
+                            ></TextBlock>
+                    </StackPanel>
+                </Expander>
+            </StackPanel>
+            
+        </ScrollViewer>
+    </Grid>
+</Window>
