@@ -9,21 +9,59 @@
     <Grid>
         <ScrollViewer>
             <StackPanel>
-                <Expander Header="28.11.2020" FontSize="25" >
+                <Expander Header="4.3.2023" FontSize="25" >
+                    <StackPanel>
+                        <TextBlock
+                            Text="- Zadnji dodaci"
+                            ></TextBlock>
+                    </StackPanel>
+                </Expander>
+                <Expander Header="3.3.2023" FontSize="25" >
+                    <StackPanel>
+                        <TextBlock
+                            TextWrapping="Wrap"
+                            Text="- Implementacija i usavrsavanje novih funkcoinalnosti"
+                            ></TextBlock>
+                    </StackPanel>
+                </Expander>
+                <Expander Header="2.3.2023" FontSize="25" >
+                    <StackPanel>
+                        <TextBlock
+                            TextWrapping="Wrap"
+                            Text="- Implementacija novih funkcionalnosti"
+                            ></TextBlock>
+                    </StackPanel>
+                </Expander>
+                <Expander Header="1.3.2023" FontSize="25" >
+                    <StackPanel>
+                        <TextBlock
+                            TextWrapping="Wrap"
+                            Text="- Dodavanje novih funkcionalnosti(upisivanje i uklanjanje zaposlenika iz baze)"
+                            ></TextBlock>
+                    </StackPanel>
+                </Expander>
+                <Expander Header="28.2.2023" FontSize="25" >
+                    <StackPanel>
+                        <TextBlock
+                            Text="- Pregledavanje projekta"
+                            ></TextBlock>
+                    </StackPanel>
+                </Expander>
+                <Expander Header="28.11.2022" FontSize="25" >
                     <StackPanel>
                         <TextBlock
                             Text="- Zavrsavanje projekta"
                             ></TextBlock>
                     </StackPanel>
                 </Expander>
-                <Expander Header="27.11.2020" FontSize="25" >
+                <Expander Header="27.11.2022" FontSize="25" >
                     <StackPanel>
                         <TextBlock
                             Text="- Dodavanje zadnjih detalja"
                             ></TextBlock>
                     </StackPanel>
                 </Expander>
-                <Expander Header="26.11.2020" FontSize="25" >
+                <Expander Header="26.11.2022" FontSize="25" >
                     <StackPanel>
                         <TextBlock
                             Text="- Uredivanje UI-a"
@@ -33,7 +71,7 @@
                             ></TextBlock>
                     </StackPanel>
                 </Expander>
-                <Expander Header="25.11.2020" FontSize="25" >
+                <Expander Header="25.11.2022" FontSize="25" >
                     <StackPanel>
                         <TextBlock
                             Text="- Uredivanje UI-a"
@@ -43,21 +81,21 @@
                             ></TextBlock>
                     </StackPanel>
                 </Expander>
-                <Expander Header="24.11.2020" FontSize="25" >
+                <Expander Header="24.11.2022" FontSize="25" >
                     <StackPanel>
                         <TextBlock
                             Text="- Uredivanje UI-a"
                             ></TextBlock>
                     </StackPanel>
                 </Expander>
-                <Expander Header="23.11.2020" FontSize="25" >
+                <Expander Header="23.11.2022" FontSize="25" >
                     <StackPanel>
                         <TextBlock
                             Text="- Uredivanje UI-a"
                             ></TextBlock>
                     </StackPanel>
                 </Expander>
-                <Expander Header="22.11.2020" FontSize="25" >
+                <Expander Header="22.11.2022" FontSize="25" >
                     <StackPanel>
                         <TextBlock
                             Text="- Uredivanje UI-a"
@@ -67,7 +105,7 @@
                             ></TextBlock>
                     </StackPanel>
                 </Expander>
-                <Expander Header="21.11.2020" FontSize="25" >
+                <Expander Header="21.11.2022" FontSize="25" >
                     <StackPanel>
                         <TextBlock
                             Text="- Citanje dokumentacije"
@@ -80,7 +118,7 @@
                             ></TextBlock>
                     </StackPanel>
                 </Expander>
-                <Expander Header="20.11.2020" FontSize="25" >
+                <Expander Header="20.11.2022" FontSize="25" >
                     <StackPanel>
                         <TextBlock
                             Text="- Pravljenje baze podataka"
@@ -90,7 +128,7 @@
                             ></TextBlock>
                     </StackPanel>
                 </Expander>
-                <Expander Header="19.11.2020" FontSize="25" >
+                <Expander Header="19.11.2022" FontSize="25" >
                     <StackPanel>
                         <TextBlock
                             Text="- Pravljenje baze podataka"
@@ -100,35 +138,35 @@
                             ></TextBlock>
                     </StackPanel>
                 </Expander>
-                <Expander Header="18.11.2020" FontSize="25" >
+                <Expander Header="18.11.2022" FontSize="25" >
                     <StackPanel>
                         <TextBlock
                             Text="- Uredivanje UI-a"
                             ></TextBlock>
                     </StackPanel>
                 </Expander>
-                <Expander Header="17.11.2020" FontSize="25" >
+                <Expander Header="17.11.2022" FontSize="25" >
                     <StackPanel>
                         <TextBlock
                             Text="- Uredivanje UI-a"
                             ></TextBlock>
                     </StackPanel>
                 </Expander>
-                <Expander Header="16.11.2020" FontSize="25" >
+                <Expander Header="16.11.2022" FontSize="25" >
                     <StackPanel>
                         <TextBlock
                             Text="- Uredivanje UI-a"
                             ></TextBlock>
                     </StackPanel>
                 </Expander>
-                <Expander Header="15.11.2020" FontSize="25" >
+                <Expander Header="15.11.2022" FontSize="25" >
                     <StackPanel>
                         <TextBlock
                             Text="- Pravljenje projekta, planiranje"
                             ></TextBlock>
                     </StackPanel>
                 </Expander>
-                <Expander Header="14.11.2020" FontSize="25" >
+                <Expander Header="14.11.2022" FontSize="25" >
                     <StackPanel>
                         <TextBlock
                             Text="- Testiranje i isprobavanje itema"
@@ -136,7 +174,7 @@
                     </StackPanel>
 
                 </Expander>
-                <Expander Header="13.11.2020" FontSize="25" >
+                <Expander Header="13.11.2022" FontSize="25" >
                     <StackPanel>
                         <TextBlock
                             Text="- Testiranje i isprobavanje itema"
@@ -145,14 +183,14 @@
                 </Expander>
 
 
-                <Expander Header="12.11.2020" FontSize="25" >
+                <Expander Header="12.11.2022" FontSize="25" >
                     <StackPanel>
                         <TextBlock
                             Text="- Testiranje i isprobavanje itema"
                             ></TextBlock>
                     </StackPanel>
                 </Expander>
-                <Expander Header="11.11.2020" FontSize="25" >
+                <Expander Header="11.11.2022" FontSize="25" >
                     <StackPanel>
                         <TextBlock
                             Text="- Testiranje i isprobavanje itema"
@@ -160,27 +198,28 @@
                     </StackPanel>
 
                 </Expander>
-                <Expander Header="10.11.2020" FontSize="25" >
+                <Expander Header="10.11.2022" FontSize="25" >
                     <StackPanel>
                         <TextBlock
                             Text="- Testiranje i isprobavanje itema"
                             ></TextBlock>
                     </StackPanel>
                 </Expander>
-                <Expander Header="9.11.2020" FontSize="25" >
+                <Expander Header="9.11.2022" FontSize="25" >
                     <StackPanel>
                         <TextBlock
                             Text="- Testiranje i isprobavanje itema"
                             ></TextBlock>
                     </StackPanel>
                 </Expander>
-                <Expander Header="8.11.2020" FontSize="25" >
+                <Expander Header="8.11.2022" FontSize="25" >
                     <StackPanel>
                         <TextBlock
                             Text="- Stvaranje Projekta, testiranje"
                             ></TextBlock>
                     </StackPanel>
                 </Expander>
+               
             </StackPanel>
             
         </ScrollViewer>

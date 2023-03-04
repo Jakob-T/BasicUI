@@ -89,6 +89,9 @@
       <DependentUpon>Podrska.xaml</DependentUpon>
     </Compile>
     <Compile Include="SqliteDataAccess.cs" />
+    <Compile Include="Uklanjanje.xaml.cs">
+      <DependentUpon>Uklanjanje.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Zaposlenici.cs" />
     <Compile Include="ZaposleniciWin.xaml.cs">
       <DependentUpon>ZaposleniciWin.xaml</DependentUpon>
@@ -113,6 +116,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Podrska.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Uklanjanje.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

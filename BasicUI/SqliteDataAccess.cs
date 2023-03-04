@@ -59,7 +59,23 @@ namespace BasicUI
             }
         }
 
-        
+        public static void RemovePeople(int ID)
+        {
+            using (SQLiteConnection connection = new SQLiteConnection(LoadConnectionString()))
+            {
+                SQLiteCommand SqliteCmd = new SQLiteCommand(connection);
+                SqliteCmd.CommandText = "DELETE FROM [Zaposlenici] WHERE ID=@ID";
+                SqliteCmd.Parameters.AddWithValue("@ID", ID);
+                connection.Open();
+                SqliteCmd.ExecuteNonQuery();
+                connection.Close();
+                
+
+
+            }
+        }
+
+
 
 
 

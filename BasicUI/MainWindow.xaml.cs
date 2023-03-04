@@ -149,7 +149,8 @@ namespace BasicUI
 
         private void Ukloni_Click(object sender, RoutedEventArgs e)
         {
-
+            Uklanjanje uklanjanje = new Uklanjanje();
+            uklanjanje.Show();
         }
 
         private void Zaposljavanje_Click(object sender, RoutedEventArgs e)

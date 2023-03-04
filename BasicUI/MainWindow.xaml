@@ -17,7 +17,7 @@
             <RowDefinition Height="1*"></RowDefinition>
         </Grid.RowDefinitions>
         <StackPanel Grid.Row="0" Grid.Column="0" Grid.RowSpan="2" Grid.ColumnSpan="3" Background="AntiqueWhite">
-            <Image Source="C:\Users\jakob\source\repos\BasicUI\BasicUI\Images\prvi.png" Width="450" HorizontalAlignment="Center"></Image>
+            <Image Source=".\Images\prvi.png" Width="450" HorizontalAlignment="Center"></Image>
             <TextBlock Height="60"></TextBlock>
             <Button Height="Auto" Background="Transparent" 
                     BorderBrush="Transparent"
@@ -79,7 +79,7 @@
                     Click="Ukloni_Click"
                     >
                 <StackPanel Orientation="Horizontal">
-                    <TextBlock Width="170" TextAlignment="Center" FontSize="25">Ukloni</TextBlock>
+                    <TextBlock Width="170" TextAlignment="Center" FontSize="25">Ukloni radnika</TextBlock>
                     <Image Source="https://cdn-icons-png.flaticon.com/128/1450/1450571.png" Height="20"></Image>
 
 

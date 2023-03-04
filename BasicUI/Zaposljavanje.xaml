@@ -97,7 +97,7 @@
                   FontSize="15"
                   VerticalContentAlignment="Center"
                   HorizontalContentAlignment="Center"
-                  Text="Odabir"
+                  
                  
             ></ComboBox>
         <ComboBox x:Name="ComboboxZanimanja" Grid.Row="4" Grid.Column="4" Grid.ColumnSpan="2"
@@ -108,7 +108,7 @@
                   FontSize="15"
                   VerticalContentAlignment="Center"
                   HorizontalContentAlignment="Center"
-                  Text="Odabir"
+                  
             ></ComboBox>
         <Button x:Name="GumbSpremi" Grid.Column="3" Grid.Row="5" Height="50" VerticalAlignment="Top" Width="100" 
               Click="GumbSpremi_Click"

@@ -28,3 +28,5 @@ C:\Users\jakob\source\repos\BasicUI\BasicUI\obj\Debug\BasicUI.exe
 C:\Users\jakob\source\repos\BasicUI\BasicUI\obj\Debug\BasicUI.pdb
 C:\Users\jakob\source\repos\BasicUI\BasicUI\obj\Debug\Zaposljavanje.g.cs
 C:\Users\jakob\source\repos\BasicUI\BasicUI\obj\Debug\Zaposljavanje.baml
+C:\Users\jakob\source\repos\BasicUI\BasicUI\obj\Debug\Uklanjanje.g.cs
+C:\Users\jakob\source\repos\BasicUI\BasicUI\obj\Debug\Uklanjanje.baml

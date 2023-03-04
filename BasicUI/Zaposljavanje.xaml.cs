@@ -33,9 +33,21 @@ namespace BasicUI
         private void GumbSpremi_Click(object sender, RoutedEventArgs e)
         {
             List<Zaposlenici> lista = SqliteDataAccess.LoadPeople();
-
-            SqliteDataAccess.InsertPeople(lista.Last().Id+1,TextboxIme.Text, TextboxPrezime.Text, TextboxKontakt.Text, ComboboxOdjel.Text , ComboboxZanimanja.Text);
+            if (string.IsNullOrEmpty(TextboxIme.Text) || string.IsNullOrEmpty(TextboxPrezime.Text) || string.IsNullOrEmpty(TextboxKontakt.Text) || string.IsNullOrEmpty(ComboboxOdjel.Text) || string.IsNullOrEmpty(ComboboxZanimanja.Text))
+            {
+                MessageBox.Show("Nisu uneseni svi podaci");
+                
+            }
+            else {
+                SqliteDataAccess.InsertPeople(lista.Last().Id + 1, TextboxIme.Text, TextboxPrezime.Text, TextboxKontakt.Text, ComboboxOdjel.Text, ComboboxZanimanja.Text);
+                if (MessageBox.Show("Podaci su spremljeni u bazu", "",MessageBoxButton.OK)==MessageBoxResult.OK) {
+                    this.Close();
+                }
+            }
             
+
+
+
         }
     }
 }
