@@ -92,7 +92,7 @@
     <Compile Include="Uklanjanje.xaml.cs">
       <DependentUpon>Uklanjanje.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Zaposlenici.cs" />
+    <Compile Include="Zaposlenik.cs" />
     <Compile Include="ZaposleniciWin.xaml.cs">
       <DependentUpon>ZaposleniciWin.xaml</DependentUpon>
     </Compile>

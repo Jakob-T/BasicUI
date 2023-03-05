@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BasicUI
 {
-    public class Zaposlenici
+    public class Zaposlenik
     {
         
 
@@ -17,7 +17,7 @@ namespace BasicUI
         public string Odjel { get; set; }
         public string Zanimanje { get; set; }
 
-        public Zaposlenici(int id, string ime, string prezime, string kontakt, string odjel, string zanimanje)
+        public Zaposlenik(int id, string ime, string prezime, string kontakt, string odjel, string zanimanje)
         {
             this.Id = id;
             this.Ime = ime;
@@ -27,7 +27,7 @@ namespace BasicUI
             this.Zanimanje = zanimanje;
         }
 
-        public Zaposlenici(string ime)
+        public Zaposlenik(string ime)
         {
             this.Ime = ime;
         }

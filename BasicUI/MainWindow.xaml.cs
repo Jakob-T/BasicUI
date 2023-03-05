@@ -35,7 +35,7 @@ namespace BasicUI
         private void Button_Click_Zaposlenici(object sender, RoutedEventArgs e)
         {
             
-            List<Zaposlenici> lista=SqliteDataAccess.LoadPeople();
+            List<Zaposlenik> lista=SqliteDataAccess.LoadPeople();
 
             ZaposleniciWin zaposleniciWin = new ZaposleniciWin();
 
@@ -125,7 +125,7 @@ namespace BasicUI
 
         private void Podrska_Click(object sender, RoutedEventArgs e)
         {
-            List<Zaposlenici> lista = SqliteDataAccess.LoadPeople();
+            List<Zaposlenik> lista = SqliteDataAccess.LoadPeople();
             Podrska form = new Podrska();
 
             form.Glavni1.Text = lista[29].Ime+" "+lista[29].Prezime;

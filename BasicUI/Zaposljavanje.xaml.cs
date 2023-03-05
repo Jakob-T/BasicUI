@@ -32,7 +32,7 @@ namespace BasicUI
 
         private void GumbSpremi_Click(object sender, RoutedEventArgs e)
         {
-            List<Zaposlenici> lista = SqliteDataAccess.LoadPeople();
+            List<Zaposlenik> lista = SqliteDataAccess.LoadPeople();
             if (string.IsNullOrEmpty(TextboxIme.Text) || string.IsNullOrEmpty(TextboxPrezime.Text) || string.IsNullOrEmpty(TextboxKontakt.Text) || string.IsNullOrEmpty(ComboboxOdjel.Text) || string.IsNullOrEmpty(ComboboxZanimanja.Text))
             {
                 MessageBox.Show("Nisu uneseni svi podaci");

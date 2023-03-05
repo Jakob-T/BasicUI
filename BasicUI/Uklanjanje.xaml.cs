@@ -19,15 +19,15 @@ namespace BasicUI
     /// </summary>
     public partial class Uklanjanje : Window
     {
-        private List<Zaposlenici> lista = SqliteDataAccess.LoadPeople();
-        private Dictionary<int, Zaposlenici> rjecnik = new Dictionary<int, Zaposlenici>();
+        private List<Zaposlenik> lista = SqliteDataAccess.LoadPeople();
+        private Dictionary<int, Zaposlenik> rjecnik = new Dictionary<int, Zaposlenik>();
         
         
         public Uklanjanje()
         {
             InitializeComponent();
             
-            foreach(Zaposlenici zaposlenik in lista)
+            foreach(Zaposlenik zaposlenik in lista)
             {
                 ComboboxID.Items.Add(zaposlenik.Id);
 

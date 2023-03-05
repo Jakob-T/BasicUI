@@ -11,10 +11,10 @@ namespace BasicUI
 {
     public class SqliteDataAccess
     {
-        public static List<Zaposlenici> LoadPeople()
+        public static List<Zaposlenik> LoadPeople()
         {
             
-            var Userlist = new List<Zaposlenici>();
+            var Userlist = new List<Zaposlenik>();
 
             using (SQLiteConnection connection = new SQLiteConnection(LoadConnectionString()))
             {
@@ -28,7 +28,7 @@ namespace BasicUI
 
                 while (reader.Read())
                 {
-                    Zaposlenici zaposlenici = new Zaposlenici(reader.GetInt32(0), reader.GetString(1), reader.GetString(2), reader.GetString(3), reader.GetString(4), reader.GetString(5));
+                    Zaposlenik zaposlenici = new Zaposlenik(reader.GetInt32(0), reader.GetString(1), reader.GetString(2), reader.GetString(3), reader.GetString(4), reader.GetString(5));
                     Userlist.Add(zaposlenici);
                     
                     
